@@ -1,0 +1,122 @@
+
+.container {
+	min-height: 100vh;
+	background-color: #F5F7FA;
+}
+.header {
+	position: relative;
+	height: 400rpx;
+	overflow: hidden;
+}
+.header-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.header-content {
+	position: relative;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	color: #FFFFFF;
+}
+.logo {
+	width: 120rpx;
+	height: 120rpx;
+	margin-bottom: 20rpx;
+}
+.app-name {
+	font-size: 44rpx;
+	font-weight: bold;
+	margin-bottom: 10rpx;
+	text-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.2);
+}
+.app-desc {
+	font-size: 28rpx;
+	opacity: 0.9;
+}
+.main-content {
+	padding: 30rpx;
+	margin-top: -10rpx;
+}
+.card {
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.08);
+	padding: 40rpx;
+	margin-bottom: 30rpx;
+}
+.card-title {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30rpx;
+	font-size: 34rpx;
+	font-weight: bold;
+	color: #333333;
+}
+.icon {
+	margin-right: 10rpx;
+	font-size: 36rpx;
+}
+.card-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.description {
+	font-size: 28rpx;
+	color: #666666;
+	margin-bottom: 40rpx;
+	text-align: center;
+}
+.analyze-btn {
+	width: 80%;
+	height: 90rpx;
+	line-height: 90rpx;
+	background: linear-gradient(135deg, #4A7AFF 0%, #3B5EE8 100%);
+	color: #FFFFFF;
+	font-size: 32rpx;
+	font-weight: bold;
+	border-radius: 45rpx;
+	box-shadow: 0 10rpx 20rpx rgba(74, 122, 255, 0.3);
+}
+.features {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.feature-item {
+	width: 30%;
+	background-color: #FFFFFF;
+	border-radius: 16rpx;
+	padding: 30rpx 10rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.feature-icon {
+	font-size: 48rpx;
+	margin-bottom: 20rpx;
+}
+.feature-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.feature-title {
+	font-size: 28rpx;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 6rpx;
+}
+.feature-desc {
+	font-size: 22rpx;
+	color: #999999;
+	text-align: center;
+}
+

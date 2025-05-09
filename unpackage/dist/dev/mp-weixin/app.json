@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/analysis/result"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Medical image diagnosis APP",
+    "navigationBarBackgroundColor": "#4A7AFF",
+    "backgroundColor": "#F5F5F5"
+  },
+  "usingComponents": {}
+}
