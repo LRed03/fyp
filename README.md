@@ -28,6 +28,3 @@ This is a cross-platform mobile application for AI-assisted medical image analys
 - Tested on Android and WeChat DevTools
 - Typical response time: 3–5 seconds per request
 
-## License
-
-MIT © 2024 LRed03
